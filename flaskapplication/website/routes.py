@@ -4,7 +4,7 @@ from .models import Result
 import openai
 
 routes = Blueprint('routes', __name__)
-openai.api_key = 'AI Bot Build Key'
+openai.api_key = 'Enter the Open AI Key'
 completion = openai.Completion()
 
 historyData = []
